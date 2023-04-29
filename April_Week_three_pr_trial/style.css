@@ -1,0 +1,149 @@
+/* Customize the navbar */
+.navbar {
+    padding: 0.5rem 1rem;
+  }
+
+  nav {
+    position: sticky !important;
+    z-index: 1001;
+    top : 0px;
+    background-color: lightgray;
+  }
+  
+  
+  /* Add a hover effect to the navbar links */
+  .navbar-nav li a:hover {
+    color: #007bff;
+  }
+  
+  /* Customize the search bar */
+  .form-control {
+    border-radius: 0;
+    border-color: #007bff;
+  }
+  
+  /* Add a hover effect to the search button */
+  .btn-outline-success:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+
+  .carousel-section {
+    padding: 50px 0;
+    background-color: #f7f7f7;
+  }
+
+  .carousel-indicators {
+    visibility: hidden;
+  }
+  
+  .carousel-caption {
+    background-color: none;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: -50px;
+  }
+  
+  .carousel-caption h5, 
+  .carousel-caption p {
+    color: #fff;
+    font-size: 1em;
+  }
+  
+  .carousel-caption button {
+    margin-top: 20px;
+  }
+  
+  .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .carousel-item img {
+      height: 200px;
+      width: 100vw;
+    }
+  }
+  
+
+  .custom-section {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .flex-item {
+    margin: 20px;
+    text-align: center;
+    max-width: 300px;
+  }
+  
+  .flex-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 0%;
+    box-shadow: 0px 0px 10px #888888;
+  }
+  
+  .flex-item p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .Jai-hari {
+    width: 100%;
+  }
+  
+.Jai-hari img {
+    margin: 0px 10px 10px 10px;
+}
+ 
+  .row {
+    --bs-gutter-x: 0.5rem !important;
+  }
+  
+  .card {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  @media (max-width: 767px) {
+    .card-deck {
+      flex-direction: column;
+    }
+  }
+
+  .list-unstyled {
+    color: white;
+  }
+  
+  .d-flex {
+    justify-content: space-between;
+    margin: 0px 5%;
+  }
+
+  .hariom {
+    width: 100%;
+  }
+
+  .mt-4 {
+    font-size: 100%;
+  }
+
+  .mb-2 {
+    width: 100%;
+  }
+  
